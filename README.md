@@ -1,3 +1,9 @@
+# Use this version if:
+
+### You've previously integrated to the Monetary iOS Mobile Token Solution
+
+This version provides a transition path to NETePay Hosted while maintaining Monetary naming conventions. However, it's recommended to use the Datacap branch as this branch is no longer supported.
+
 # Getting started with MobileToken for iOS 
 
 ### Add MonetaryMobileToken.framework to your Xcode project
