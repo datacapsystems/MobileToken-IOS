@@ -1,4 +1,4 @@
-# Getting started with MobileToken for iOS [![Build Status](https://travis-ci.org/Mntry/MobileToken-iOS.svg?branch=master)](https://travis-ci.org/Mntry/MobileToken-iOS)
+# Getting started with MobileToken for iOS
 
 ### Add MonetaryMobileToken.framework to your Xcode project
 1. In the project navigator, select the project or group within a project to which you want to add the framework.
@@ -74,4 +74,4 @@ MonetaryTokenizer *tokenizer = [MonetaryTokenizer new];
 ```
 
 ### Report bugs
-If you encounter any bugs or issues with the latest version of MobileToken for iOS, please report them to us by opening a [GitHub Issue](https://github.com/Mntry/MobileToken-iOS/issues)!
+If you encounter any bugs or issues with the latest version of MobileToken for iOS, please report them to us by opening a [GitHub Issue](https://github.com/datacapsystems/MobileToken-iOS/issues)!
