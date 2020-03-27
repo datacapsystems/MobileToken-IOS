@@ -1,0 +1,6 @@
+framework module MonetaryMobileToken {
+  umbrella header "MonetaryMobileToken.h"
+
+  export *
+  module * { export * }
+}
