@@ -1,3 +1,9 @@
+# Use this version if:
+
+### You need access to the Monetary payment endpoints
+
+This version provides Mobile Token access to the legacy Monetary endpoints. It is not intended for new integrations and is no longer supported.
+
 # Getting started with MobileToken for iOS
 
 ### Add MonetaryMobileToken.framework to your Xcode project
