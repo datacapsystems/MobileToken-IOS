@@ -2,7 +2,7 @@
 //  ViewController.h
 //  MonetaryMobileTokenDemo
 //
-//  Copyright © 2016 Monetary. All rights reserved.
+//  Copyright © 2020 Datacap Systems, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

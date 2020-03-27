@@ -12,20 +12,20 @@
 		6534DE9E1D35A81000AF43B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6534DE9D1D35A81000AF43B7 /* ViewController.m */; };
 		6534DEA11D35A81000AF43B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6534DE9F1D35A81000AF43B7 /* Main.storyboard */; };
 		6534DEA31D35A81000AF43B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6534DEA21D35A81000AF43B7 /* Assets.xcassets */; };
-		654C96D81D3802CC00AF3801 /* MonetaryMobileToken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6557F2201D38020E001AA2D5 /* MonetaryMobileToken.framework */; };
-		6557F2221D380216001AA2D5 /* MonetaryMobileToken.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6557F2201D38020E001AA2D5 /* MonetaryMobileToken.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		658D58291D4908CB00E14AE9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 658D58281D4908CB00E14AE9 /* logo.png */; };
 		658D582C1D49090500E14AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658D582A1D49090500E14AE9 /* LaunchScreen.storyboard */; };
+		AC908D26242AA780000330AA /* MonetaryMobileToken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC908D25242AA780000330AA /* MonetaryMobileToken.framework */; };
+		AC908D27242AA780000330AA /* MonetaryMobileToken.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC908D25242AA780000330AA /* MonetaryMobileToken.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6534DEBB1D35F9CB00AF43B7 /* Embed Frameworks */ = {
+		ACF4E6D02429418400853D25 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6557F2221D380216001AA2D5 /* MonetaryMobileToken.framework in Embed Frameworks */,
+				AC908D27242AA780000330AA /* MonetaryMobileToken.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,9 +42,9 @@
 		6534DEA01D35A81000AF43B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6534DEA21D35A81000AF43B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6534DEA71D35A81000AF43B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6557F2201D38020E001AA2D5 /* MonetaryMobileToken.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MonetaryMobileToken.framework; sourceTree = SOURCE_ROOT; };
 		658D58281D4908CB00E14AE9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		658D582B1D49090500E14AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC908D25242AA780000330AA /* MonetaryMobileToken.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MonetaryMobileToken.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654C96D81D3802CC00AF3801 /* MonetaryMobileToken.framework in Frameworks */,
+				AC908D26242AA780000330AA /* MonetaryMobileToken.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +64,7 @@
 			children = (
 				6534DE951D35A81000AF43B7 /* MonetaryMobileTokenDemo */,
 				6534DE941D35A81000AF43B7 /* Products */,
+				AC908D24242AA77F000330AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,13 +94,20 @@
 		6534DE961D35A81000AF43B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6557F2201D38020E001AA2D5 /* MonetaryMobileToken.framework */,
 				658D582A1D49090500E14AE9 /* LaunchScreen.storyboard */,
 				6534DE9F1D35A81000AF43B7 /* Main.storyboard */,
 				658D58281D4908CB00E14AE9 /* logo.png */,
 				6534DE971D35A81000AF43B7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC908D24242AA77F000330AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC908D25242AA780000330AA /* MonetaryMobileToken.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,7 +120,7 @@
 				6534DE8F1D35A81000AF43B7 /* Sources */,
 				6534DE901D35A81000AF43B7 /* Frameworks */,
 				6534DE911D35A81000AF43B7 /* Resources */,
-				6534DEBB1D35F9CB00AF43B7 /* Embed Frameworks */,
+				ACF4E6D02429418400853D25 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +255,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -286,6 +295,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -301,6 +311,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = MonetaryMobileDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.monetary.MonetaryMobileDemo;
 				PRODUCT_NAME = MonetaryMobileTokenDemo;
 				PROVISIONING_PROFILE = "";
@@ -319,6 +330,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = MonetaryMobileDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = co.monetary.MonetaryMobileDemo;
 				PRODUCT_NAME = MonetaryMobileTokenDemo;
 				PROVISIONING_PROFILE = "";

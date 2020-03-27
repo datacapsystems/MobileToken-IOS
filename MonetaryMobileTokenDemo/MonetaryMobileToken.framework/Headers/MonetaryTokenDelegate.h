@@ -2,7 +2,7 @@
 //  MonetaryTokenDelegate.h
 //  MonetaryMobileToken
 //
-//  Copyright © 2016 Monetary. All rights reserved.
+//  Copyright © 2020 Datacap Systems, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,7 +2,7 @@
 //  ViewController.m
 //  MonetaryMobileTokenDemo
 //
-//  Copyright © 2016 Monetary. All rights reserved.
+//  Copyright © 2020 Datacap Systems, Inc. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -24,7 +24,8 @@
 - (IBAction)btnGetAToken_Pressed:(id)sender
 {
     MonetaryTokenizer *tokenizer = [MonetaryTokenizer new];
-    [tokenizer requestKeyedTokenWithPublicKey:@"test_public00000000000000000000000000000006"
+    [tokenizer requestKeyedTokenWithPublicKey:@"cd67abe67d544936b0f3708b9fda7238"
+                              isCertification:true  // <-- remove for production
                                   andDelegate:self
                            overViewController:self];
 }

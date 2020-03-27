@@ -4,33 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CardDataEntry.nib</key>
+		<key>CardDataEntry.nib/objects-13.0+.nib</key>
 		<data>
-		K6rYHcLYR+Iy9UD/P+nI3RHJ/JM=
+		vpjp2Ghzjxj8bjW1OSh5mzlXRQE=
+		</data>
+		<key>CardDataEntry.nib/runtime.nib</key>
+		<data>
+		CB+omaEqnc75Jeznbdvyam1G3h0=
 		</data>
 		<key>Headers/MonetaryMobileToken.h</key>
 		<data>
-		xmKjCqEhJACa31ygle81h5AYPkw=
+		renwBUHuB/82Fv9yeWmWTZB3BTU=
 		</data>
 		<key>Headers/MonetaryToken.h</key>
 		<data>
-		ln3Cb/SL7VbKPNki6PLPObcrpY0=
+		5SLMCmCf2myVj4ekz7qDumqz6fE=
 		</data>
 		<key>Headers/MonetaryTokenDelegate.h</key>
 		<data>
-		UMZVAg5FKYB2iXpgAre766Pr2co=
+		mcuSgEryM7Y8qfS4XZxnC8YVg7U=
 		</data>
 		<key>Headers/MonetaryTokenErrorCodes.h</key>
 		<data>
-		TDSFosI0fj0w0ElWFyZz3tc3cr8=
+		j712laAu0+wjgX57jjEsC7KQS+M=
 		</data>
 		<key>Headers/MonetaryTokenizer.h</key>
 		<data>
-		3/1oydBzAyGnqxt2UZIBxWeaKQ8=
+		FCH2h5na8LANVKkTccgi2saoSpY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ix0zcaorD2CZIkl7To9rMpZJs9w=
+		utqCnb9EnWfXxz8VW8aXYaC8wjo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,70 +63,81 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CardDataEntry.nib</key>
+		<key>CardDataEntry.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K6rYHcLYR+Iy9UD/P+nI3RHJ/JM=
+			vpjp2Ghzjxj8bjW1OSh5mzlXRQE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cVc4QNlT7NxKat7FU8gFRc5OBjISSagt+art/rIiZ94=
+			Xh3/Oj8xPrwumFOLwejrODGCEuXuhFyEIZgFWj8Kcv4=
+			</data>
+		</dict>
+		<key>CardDataEntry.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CB+omaEqnc75Jeznbdvyam1G3h0=
+			</data>
+			<key>hash2</key>
+			<data>
+			SkrIXlYQ7vlWwMbtJPeudG+mpzOZNx8gzTkZeDengGs=
 			</data>
 		</dict>
 		<key>Headers/MonetaryMobileToken.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xmKjCqEhJACa31ygle81h5AYPkw=
+			renwBUHuB/82Fv9yeWmWTZB3BTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJPfTvtIq0DMg1L0D2YVv3iHBY1xTGRI83Pscre9AiE=
+			o0YUDJIzSgnKle9XJihd7SlEqfQnamR5rCw42YXrqws=
 			</data>
 		</dict>
 		<key>Headers/MonetaryToken.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ln3Cb/SL7VbKPNki6PLPObcrpY0=
+			5SLMCmCf2myVj4ekz7qDumqz6fE=
 			</data>
 			<key>hash2</key>
 			<data>
-			7L9DTEikLkYDPSemq7fziOioN9Mc6oMaHOIAlZ+n+UE=
+			dcajhEaMP+pfeRDntdXBQt5YKwav1B26zY1DJ7aGXbw=
 			</data>
 		</dict>
 		<key>Headers/MonetaryTokenDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UMZVAg5FKYB2iXpgAre766Pr2co=
+			mcuSgEryM7Y8qfS4XZxnC8YVg7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			xnRA1e6eBCsXxhKl3FA/tmKoxBikzx4BozAmk33Jw6I=
+			Fkwb9EqKh6NXuuv2hjhXZU/tSnGCTQoNZcgUKzVFlJM=
 			</data>
 		</dict>
 		<key>Headers/MonetaryTokenErrorCodes.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TDSFosI0fj0w0ElWFyZz3tc3cr8=
+			j712laAu0+wjgX57jjEsC7KQS+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAl0GBBg8z8U6UJT2bkG7Mx8VJ65hO/tfLCNZeVjqes=
+			VXXWK3i32GeY9BOIAA+fP2H8QGMQD4KHdBzWzrZF4JQ=
 			</data>
 		</dict>
 		<key>Headers/MonetaryTokenizer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3/1oydBzAyGnqxt2UZIBxWeaKQ8=
+			FCH2h5na8LANVKkTccgi2saoSpY=
 			</data>
 			<key>hash2</key>
 			<data>
-			z8mg60cMeMfH3Gl1vL/kEXHXo0flomd5tTpfU4DdXo8=
+			2veI1dbNy3nIsbUU0LSCm5KXqxtTbyd0I3PA4kzA4FE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -194,7 +209,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -225,24 +240,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -278,13 +281,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
